@@ -7,7 +7,7 @@ This repository contains the code and datasets used to identify proteins associa
 The core model is a Graph Attention Network (GAT) trained on sequence‑based embeddings and network‑derived features.
 
 ## Data Acquisition Summary
-Gene lists for AD, PD, HD, and ALS were retrieved from DisGeNET (curated disease–gene associations; human‑specific entries only).
+Gene lists for AD, PD, HD, and ALS were retrieved from DisGeNET (curated disease–gene associations).
 
 Each gene set was mapped to UniProtKB using the UniProt ID Mapping API (gene → UniProtKB).
 
