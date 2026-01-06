@@ -1,18 +1,18 @@
-# 🧬 NDP_Prediction
+# 🧠 NDP_Prediction
 Graph Attention Network for Neurodegenerative Disease Protein Classification
 
 ---
 
 ## 📌 Overview
 
-NDP_Prediction is a graph-based 🧠 machine learning project that applies **Graph Attention Networks (GAT)** to identify **Neurodegenerative Disease‑Related Proteins (NDPs)**.
+NDP_Prediction is a graph-based deep learning project that applies **Graph Attention Networks (GAT)** to identify **Neurodegenerative Disease‑Related Proteins (NDPs)**.
 
 The model distinguishes disease-related proteins from **Housekeeping proteins**, focusing on four major neurodegenerative diseases:
 
-- 🧠 Alzheimer’s Disease (AD)
-- 🧠 Parkinson’s Disease (PD)
-- 🧠 Huntington’s Disease (HD)
-- 🧠 Amyotrophic Lateral Sclerosis (ALS)
+-  Alzheimer’s Disease (AD)
+-  Parkinson’s Disease (PD)
+-  Huntington’s Disease (HD)
+-  Amyotrophic Lateral Sclerosis (ALS)
 
 ---
 
