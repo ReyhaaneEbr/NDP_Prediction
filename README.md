@@ -33,7 +33,7 @@ The model distinguishes disease-related proteins from **Housekeeping proteins**,
 
 ✅ The final labeled dataset is stored as:
 ```text
-data/dataset.xlsx
+data/dataset.xlsx'''
 
 ## 🧬 Feature Representation
 
