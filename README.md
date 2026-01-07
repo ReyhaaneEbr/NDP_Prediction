@@ -35,9 +35,9 @@ The model distinguishes disease-related proteins from **Housekeeping proteins**,
 
 data/dataset.xlsx
 
-## 🧬 Feature Representation
+## ▦ Feature Representation
 
-### 🧠 Protein Sequence Embeddings
+### 🧫 Protein Sequence Embeddings
 
 - Protein sequences were encoded using **ProtT5 (Rostlab)**
 - Each protein sequence is represented as a **1024-dimensional embedding**
@@ -51,7 +51,7 @@ data/dataset.xlsx
 
 ---
 
-## 🧠 Model Architecture
+## 🏛️ Model Architecture
 
 The prediction model is based on a **Graph Attention Network (GAT)**:
 
@@ -66,7 +66,7 @@ The prediction model is based on a **Graph Attention Network (GAT)**:
 
 - 🧬 Load protein embeddings
 - 🌐 Construct the PPI graph
-- 🧠 Train the GAT model
+- 📈 Train the GAT model
 - 📊 Evaluate performance using standard classification metrics
 
 ---
