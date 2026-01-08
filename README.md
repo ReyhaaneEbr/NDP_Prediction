@@ -11,10 +11,10 @@ Neurodegenerative diseases (NDs) are characterized by progressive neuronal dysfu
 
 The framework focuses on four major neurodegenerative diseases:
 
- Alzheimer’s Disease (AD)
- Parkinson’s Disease (PD)
- Huntington’s Disease (HD)
- Amyotrophic Lateral Sclerosis (ALS)
+- Alzheimer’s Disease (AD)
+- Parkinson’s Disease (PD)
+- Huntington’s Disease (HD)
+- Amyotrophic Lateral Sclerosis (ALS)
 
 ---
 
