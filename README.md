@@ -83,9 +83,9 @@ By explicitly modeling both sequence and network information, GAT‑T5 captures 
 - ✅ ROC-AUC
 
 ---
-💊 Drug Repurposing Analysis
+##💊 Drug Repurposing Analysis
 Using the predicted ND‑associated proteins:
 
-Candidate proteins were mapped to known drugs in DrugBank
-Several predicted proteins are linked to existing approved or experimental drugs
-These findings highlight immediate opportunities for drug repurposing in neurodegenerative diseases
+- Candidate proteins were mapped to known drugs in DrugBank
+- Several predicted proteins are linked to existing approved or experimental drugs
+- These findings highlight immediate opportunities for drug repurposing in neurodegenerative diseases
