@@ -57,10 +57,10 @@ data/dataset.xlsx
 
 GAT‑T5 is built upon a Graph Attention Network (GAT) architecture:
 
-- 🔹 Input layer: 1024‑dimensional ProtT5 embeddings
-- 🔹 Hidden layers: Multi‑head self‑attention over the PPI graph
-- 🔹 Output layer: Binary classification (NDP vs. Housekeeping)
-- 🔹 Attention mechanism: Highlights disease‑informative proteins and interactions
+-  Input layer: 1024‑dimensional ProtT5 embeddings
+-  Hidden layers: Multi‑head self‑attention over the PPI graph
+-  Output layer: Binary classification (NDP vs. Housekeeping)
+-  Attention mechanism: Highlights disease‑informative proteins and interactions
 By explicitly modeling both sequence and network information, GAT‑T5 captures complementary biological signals essential for ND protein identification.
 
 ---
