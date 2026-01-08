@@ -37,6 +37,8 @@ The framework focuses on four major neurodegenerative diseases:
 
 data/dataset.xlsx
 
+---
+
 ## ▦ Feature Representation
 
 ### 🧫 Protein Sequence Embeddings
