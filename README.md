@@ -7,13 +7,7 @@ Integrating Protein Sequence and PPI Networks for Neurodegenerative Disease Prot
 
 GAT‑T5 is a graph-based deep learning framework designed to identify Neurodegenerative Disease‑associated Proteins (NDPs) by jointly integrating protein–protein interaction (PPI) network topology and protein sequence-derived embeddings.
 
-Neurodegenerative diseases (NDs) are characterized by progressive neuronal dysfunction and abnormal protein aggregation. While experimental identification of disease-associated proteins is costly and time-consuming, existing computational approaches largely rely on PPI network topology alone, overlooking informative sequence-level characteristics.
-
-To address this limitation, GAT‑T5 combines:
-
-Graph Attention Networks (GAT) to model PPI structure
-ProtT5 protein language model embeddings to capture sequence-level biological information
-This integrated representation enables more accurate and biologically meaningful prediction of ND-related proteins.
+Neurodegenerative diseases (NDs) are characterized by progressive neuronal dysfunction and abnormal protein aggregation. While experimental identification of disease-associated proteins is costly and time-consuming, existing computational approaches largely rely on PPI network topology alone, overlooking informative sequence-level characteristics. To address this limitation, GAT‑T5 combines graph attention networks (GAT) to model PPI structure and ProtT5 protein language model embeddings to capture sequence-level biological information. This integrated representation enables more accurate and biologically meaningful prediction of ND-related proteins.
 
 The framework focuses on four major neurodegenerative diseases:
 
