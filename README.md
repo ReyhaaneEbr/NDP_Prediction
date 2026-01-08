@@ -1,18 +1,26 @@
 # 🧠 NDP_Prediction
-Graph Attention Network for Neurodegenerative Disease Protein Classification
+Integrating Protein Sequence and PPI Networks for Neurodegenerative Disease Protein Discovery
 
 ---
 
 ## 📌 Overview
 
-NDP_Prediction is a graph-based deep learning project that applies **Graph Attention Networks (GAT)** to identify **Neurodegenerative Disease‑Related Proteins (NDPs)**.
+GAT‑T5 is a graph-based deep learning framework designed to identify Neurodegenerative Disease‑associated Proteins (NDPs) by jointly integrating protein–protein interaction (PPI) network topology and protein sequence-derived embeddings.
 
-The model distinguishes disease-related proteins from **Housekeeping proteins**, focusing on four major neurodegenerative diseases:
+Neurodegenerative diseases (NDs) are characterized by progressive neuronal dysfunction and abnormal protein aggregation. While experimental identification of disease-associated proteins is costly and time-consuming, existing computational approaches largely rely on PPI network topology alone, overlooking informative sequence-level characteristics.
 
--  Alzheimer’s Disease (AD)
--  Parkinson’s Disease (PD)
--  Huntington’s Disease (HD)
--  Amyotrophic Lateral Sclerosis (ALS)
+To address this limitation, GAT‑T5 combines:
+
+Graph Attention Networks (GAT) to model PPI structure
+ProtT5 protein language model embeddings to capture sequence-level biological information
+This integrated representation enables more accurate and biologically meaningful prediction of ND-related proteins.
+
+The framework focuses on four major neurodegenerative diseases:
+
+ Alzheimer’s Disease (AD)
+ Parkinson’s Disease (PD)
+ Huntington’s Disease (HD)
+ Amyotrophic Lateral Sclerosis (ALS)
 
 ---
 
@@ -53,13 +61,13 @@ data/dataset.xlsx
 
 ## 🏛️ Model Architecture
 
-The prediction model is based on a **Graph Attention Network (GAT)**:
+GAT‑T5 is built upon a Graph Attention Network (GAT) architecture:
 
-- 🔹 Input layer: ProtT5 embeddings (1024 features)
-- 🔹 Hidden layers: Multi-head self-attention
-- 🔹 Output layer: Binary classification (NDP vs. Housekeeping)
-- 🔹 Attention mechanism highlights disease-informative proteins
-
+🔹 Input layer: 1024‑dimensional ProtT5 embeddings
+🔹 Hidden layers: Multi‑head self‑attention over the PPI graph
+🔹 Output layer: Binary classification (NDP vs. non_NDP)
+🔹 Attention mechanism: Highlights disease‑informative proteins and interactions
+By explicitly modeling both sequence and network information, GAT‑T5 captures complementary biological signals essential for ND protein identification.
 ---
 
 ## ⚙️ Training Pipeline
@@ -79,3 +87,10 @@ The prediction model is based on a **Graph Attention Network (GAT)**:
 - ✅ F1-score
 - ✅ ROC-AUC
 
+---
+💊 Drug Repurposing Analysis
+Using the predicted ND‑associated proteins:
+
+Candidate proteins were mapped to known drugs in DrugBank
+Several predicted proteins are linked to existing approved or experimental drugs
+These findings highlight immediate opportunities for drug repurposing in neurodegenerative diseases
